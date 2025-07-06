@@ -24,3 +24,19 @@
   transform: scale(1.05);
   transform: 0.3 ease-in-out;
 }
+
+.availability {
+  font-size: 0.85rem;
+  padding: 0.35em 0.7em;
+  border-radius: 0.5rem;
+}
+
+.available {
+  background-color: #28a745;
+  color: white;
+}
+
+.unavailable {
+  background-color: #dc3545;
+  color: white;
+}
