@@ -220,6 +220,67 @@
 
   </div>
 </section>
+<section class="container my-5">
+  <h3 class="text-center mb-4">Place Your Order</h3>
+  
+  <form action="#" class="row g-4">
+    
+    <!-- Customer Name -->
+    <div class="col-12 col-md-6">
+      <label for="customerName" class="form-label">Customer Name</label>
+      <input type="text" class="form-control" id="customerName" placeholder="Enter your name">
+    </div>
+
+    <!-- Phone Number -->
+    <div class="col-12 col-md-6">
+      <label for="phoneNumber" class="form-label">Phone Number</label>
+      <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. +1234567890">
+    </div>
+
+    <!-- Restaurant Select -->
+    <div class="col-12 col-md-6">
+      <label for="restaurant" class="form-label">Select Restaurant</label>
+      <select class="form-select" id="restaurant">
+        <option selected disabled>Choose...</option>
+        <option value="pic">Restaurant Pic</option>
+        <option value="noma">Noma</option>
+        <option value="eleven">Eleven Madison Park</option>
+        <option value="ithaa">Ithaa Undersea</option>
+        <option value="modena">Modena</option>
+        <option value="schauenstein">Schloss Schauenstein</option>
+      </select>
+    </div>
+
+    <!-- Menu Items with Quantity -->
+    <div class="col-12 col-md-6">
+      <label class="form-label d-block">Select Menu Items</label>
+
+      <div class="form-check d-flex align-items-center mb-2">
+        <input class="form-check-input me-2" type="checkbox" value="pizza" id="itemPizza">
+        <label class="form-check-label me-3" for="itemPizza">Pizza</label>
+        <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+      </div>
+
+      <div class="form-check d-flex align-items-center mb-2">
+        <input class="form-check-input me-2" type="checkbox" value="bolani" id="itemBolani">
+        <label class="form-check-label me-3" for="itemBolani">Bolani</label>
+        <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+      </div>
+
+      <div class="form-check d-flex align-items-center mb-2">
+        <input class="form-check-input me-2" type="checkbox" value="aushak" id="itemAushak">
+        <label class="form-check-label me-3" for="itemAushak">Aushak</label>
+        <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="col-12 text-center">
+      <button type="submit" class="btn btn-success mt-3">Submit Order</button>
+    </div>
+
+  </form>
+</section>
 
 
 
