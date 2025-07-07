@@ -1,3 +1,7 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 .hero-section {
     min-height: 100vh;
     background-image: url('background.jfif');
@@ -39,4 +43,12 @@
 .unavailable {
   background-color: #dc3545;
   color: white;
+}
+
+.about-image {
+  max-width: 100%;
+  height: 500px;
+  width: 80%;
+  display: block;
+  object-fit: cover;
 }
