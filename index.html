@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-
+  <link rel="icon" href="images/fav-icon/icon.png">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-info-subtle">
+  <nav class="navbar sticky-top navbar-expand-lg bg-info-subtle">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -59,7 +59,7 @@
     </div>
   </nav>
 
-  <section id="Home" class="d-flex justify-content-center align-items-center text-center text-white hero-section">
+  <section id="home" class="d-flex justify-content-center align-items-center text-center text-white hero-section">
     <div class="container px-4">
       <h1 class="display-4 fw-bold text-info">Welcome to Foodie Hub</h1>
       <p class="display-6 fw-bold text-info">Order your favorite meals instantly!</p>
@@ -175,7 +175,7 @@
               The elegant yet cozy atmosphere complements dishes crafted with precision and passion,
               delivering a memorable fine dining experience in the heart of the Swiss Alps.
             </p>
-            <a href="#" class="btn btn-primary">View Menu</a>
+            <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Restaurant Menu">View Menu</a>
           </div>
         </div>
       </div>
@@ -288,12 +288,12 @@
 
     </form>
   </section>
-  <section class="container my-5">
+  <section id="about"  class="container my-5">
     <div class="row">
       <div class="col-md-6  mb-4 mb-md-0">
         <img src="images/F-Hub.jpg" class="img-fluid rounded shadow about-image rounded-end-circle">
       </div>
-      <div id="about" class="col-md-6">
+      <div class="col-md-6">
         <h3>Abou Foodie Hub</h3>
         <p>
           Foodie Hub is your global guide to unforgettable dining. From iconic restaurants to hidden gems, we help you
