@@ -27,32 +27,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Restaurants</a>
+            <a class="nav-link" href="#restaurant">Restaurants</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Order
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#menu">Menu</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="#order">Order Form</a></li>
               <li>
-                <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -63,7 +59,7 @@
     </div>
   </nav>
 
-  <section class="d-flex justify-content-center align-items-center text-center text-white hero-section">
+  <section id="Home" class="d-flex justify-content-center align-items-center text-center text-white hero-section">
     <div class="container px-4">
       <h1 class="display-4 fw-bold text-info">Welcome to Foodie Hub</h1>
       <p class="display-6 fw-bold text-info">Order your favorite meals instantly!</p>
@@ -76,11 +72,12 @@
 
   </div>
 
-  <div class="container mt-4">
-    <h2>Restaurants</h2>
-    <h3>You can find your favorite restaurant 😍</h3>
+  <div id="restaurant" class="container mt-4">
+    <h2 class="mb-4 mt-5 text-center">Restaurants</h2>
+    <h3 class="mb-4">You can find your favorite restaurant 😍</h3>
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded  shadow hover-scale border border-danger-subtle">
+      <div
+        class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded  shadow hover-scale border border-danger-subtle">
         <div class="card text-center text-black bg-danger-subtle h-100 d-flex flex-column">
           <img src="images/restaurant/Restaurant-Pic.webp" class="card-img-top custom-img rounded-5 rounded-top-0">
           <div class="card-body mt-auto">
@@ -96,7 +93,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded  shadow hover-scale border border-danger-subtle">
+      <div
+        class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded  shadow hover-scale border border-danger-subtle">
         <div class="card text-center text-black bg-danger-subtle h-100 d-flex flex-column">
           <img src="images/restaurant/noma.webp" class="card-img-top custom-img rounded-5 rounded-top-0">
           <div class="card-body mt-auto">
@@ -111,7 +109,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
+      <div
+        class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
         <div class="card text-center text-black bg-danger-subtle h-100 d-flex flex-column">
           <img src="images/restaurant/Eleven-Madison-Park.webp" class="card-img-top custom-img rounded-5 rounded-top-0">
           <div class="card-body mt-auto">
@@ -128,7 +127,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
+      <div
+        class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
         <div class="card text-center text-black bg-danger-subtle h-100 d-flex flex-column">
           <img src="images/restaurant/Ithaa-Undersea.jpg" class="card-img-top custom-img rounded-5 rounded-top-0">
           <div class="card-body mt-auto">
@@ -144,7 +144,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
+      <div
+        class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
         <div class="card text-center text-black bg-danger-subtle h-100 d-flex flex-column">
           <img src="images/restaurant/modena.webp " class="card-img-top custom-img rounded-5 rounded-top-0">
           <div class="card-body mt-auto">
@@ -160,9 +161,11 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
+      <div
+        class="col-12 col-md-6 col-lg-3 mb-4 shadow p-3 mb-5 bg-white rounded shadow hover-scale border border-danger-subtle">
         <div class="card text-center text-black bg-danger-subtle h-100 d-flex flex-column">
-          <img src="images/restaurant/Schauenstein-Schloss.webp" class="card-img-top custom-img rounded-5 rounded-top-0">
+          <img src="images/restaurant/Schauenstein-Schloss.webp"
+            class="card-img-top custom-img rounded-5 rounded-top-0">
           <div class="card-body mt-auto">
             <h4 class="cart-title">Schloss Schauenstein</h4>
             <p>📍 Switzerland</p>
@@ -180,160 +183,161 @@
   </div>
 
   <!-- Menu Restaurant -->
-<section id="Menu">
-  <h3 class="container mt-4 text-center">Restaurant Menu</h3>
-  <div class="container mt-5">
+  <section id="menu">
+    <h3 class="container mt-4 text-center">Restaurant Menu</h3>
+    <div class="container mt-5">
 
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 p-3 mb-5">
+          <div class="card text-black text-center bg-info-subtle d-flex flex-column h-100">
+            <img src="images/pizza.jpg" class="card-img-top custom-img">
+            <div class="card-body mt-auto">
+              <h3 class="card-title">Pizza</h3>
+              <p class="card-text">Classic tomato base with mozzarella and fresh basil</p>
+              <p class="card-text"><strong>Price:</strong> $10</p>
+              <span class="badge availability available">Available</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 p-3 mb-5">
+          <div class="card text-black text-center bg-info-subtle d-flex flex-column">
+            <img src="images/boolani.jpg" class="card-img-top custom-img">
+            <div class="card-body mt-4">
+              <h3 class="card-title">Bolani</h3>
+              <p class="card-text">Afghan flatbread stuffed with spiced potatoes, herbs, and green onions crispy on the
+                outside, soft and savory inside.</p>
+              <p class="card-text"><strong>Price:</strong> $12</p>
+              <span class="badge availability available">Available</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 p-3 mb-5">
+          <div class="card text-black text-center bg-info-subtle d-flex flex-column">
+            <img src="images/ashak.jpg" class="card-img-top custom-img">
+            <div class="card-body mt-4">
+              <h3 class="card-title">Ashak</h3>
+              <p class="card-text">Delicate dumpling-style pasta filled with chives,
+                topped with a savory tomato-meat sauce and garlic-spiced yogurt.</p>
+              <p class="card-text"><strong>Price:</strong> $10</p>
+              <span class="badge availability unavailable">Unavailable</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="order" class="container my-5">
+    <h3 class="text-center mb-4">Place Your Order</h3>
+
+    <form action="#" class="row g-4 border border-danger-subtle mt-4 bg-warning-subtle">
+
+      <!-- Customer Name -->
+      <div class="col-12 col-md-6">
+        <label for="customerName" class="form-label">Customer Name</label>
+        <input type="text" class="form-control" id="customerName" placeholder="Enter your name">
+      </div>
+
+      <!-- Phone Number -->
+      <div class="col-12 col-md-6">
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. +1234567890">
+      </div>
+
+      <!-- Restaurant Select -->
+      <div class="col-12 col-md-6">
+        <label for="restaurant" class="form-label">Select Restaurant</label>
+        <select class="form-select" id="restaurant">
+          <option selected disabled>Choose...</option>
+          <option value="pic">Restaurant Pic</option>
+          <option value="noma">Noma</option>
+          <option value="eleven">Eleven Madison Park</option>
+          <option value="ithaa">Ithaa Undersea</option>
+          <option value="modena">Modena</option>
+          <option value="schauenstein">Schloss Schauenstein</option>
+        </select>
+      </div>
+
+      <!-- Menu Items with Quantity -->
+      <div class="col-12 col-md-6">
+        <label class="form-label d-block">Select Menu Items</label>
+
+        <div class="form-check d-flex align-items-center mb-2">
+          <input class="form-check-input me-2" type="checkbox" value="pizza" id="itemPizza">
+          <label class="form-check-label me-3" for="itemPizza">Pizza</label>
+          <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+        </div>
+
+        <div class="form-check d-flex align-items-center mb-2">
+          <input class="form-check-input me-2" type="checkbox" value="bolani" id="itemBolani">
+          <label class="form-check-label me-3" for="itemBolani">Bolani</label>
+          <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+        </div>
+
+        <div class="form-check d-flex align-items-center mb-2">
+          <input class="form-check-input me-2" type="checkbox" value="aushak" id="itemAushak">
+          <label class="form-check-label me-3" for="itemAushak">Aushak</label>
+          <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="col-12 text-center mb-4">
+        <button type="submit" class="btn btn-success mt-3">Submit Order</button>
+      </div>
+
+    </form>
+  </section>
+  <section class="container my-5">
     <div class="row">
-      <div  class="col-12 col-sm-6 col-lg-4 p-3 mb-5">
-        <div class="card text-black text-center bg-info-subtle d-flex flex-column h-100">
-          <img src="images/pizza.jpg" class="card-img-top custom-img">
-          <div class="card-body mt-auto">
-            <h3 class="card-title">Pizza</h3>
-            <p class="card-text">Classic tomato base with mozzarella and fresh basil</p>
-            <p class="card-text"><strong>Price:</strong> $10</p>
-            <span class="badge availability available">Available</span>
-          </div>
-        </div>
+      <div class="col-md-6  mb-4 mb-md-0">
+        <img src="images/F-Hub.jpg" class="img-fluid rounded shadow about-image rounded-end-circle">
       </div>
-      <div  class="col-12 col-sm-6 col-lg-4 p-3 mb-5">
-        <div class="card text-black text-center bg-info-subtle d-flex flex-column">
-          <img src="images/boolani.jpg" class="card-img-top custom-img">
-          <div class="card-body mt-4">
-            <h3 class="card-title">Bolani</h3>
-            <p class="card-text">Afghan flatbread stuffed with spiced potatoes, herbs, and green onions crispy on the outside, soft and savory inside.</p>
-            <p class="card-text"><strong>Price:</strong> $12</p>
-            <span class="badge availability available">Available</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 p-3 mb-5">
-        <div class="card text-black text-center bg-info-subtle d-flex flex-column">
-          <img src="images/ashak.jpg" class="card-img-top custom-img">
-          <div class="card-body mt-4">
-            <h3 class="card-title">Ashak</h3>
-            <p class="card-text">Delicate dumpling-style pasta filled with chives, 
-              topped with a savory tomato-meat sauce and garlic-spiced yogurt.</p>
-            <p class="card-text"><strong>Price:</strong> $10</p>
-            <span class="badge availability unavailable">Unavailable</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-<section class="container my-5">
-  <h3 class="text-center mb-4">Place Your Order</h3>
-  
-  <form action="#" class="row g-4 border border-danger-subtle mt-4 bg-warning-subtle">
-    
-    <!-- Customer Name -->
-    <div class="col-12 col-md-6">
-      <label for="customerName" class="form-label">Customer Name</label>
-      <input type="text" class="form-control" id="customerName" placeholder="Enter your name">
-    </div>
-
-    <!-- Phone Number -->
-    <div class="col-12 col-md-6">
-      <label for="phoneNumber" class="form-label">Phone Number</label>
-      <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. +1234567890">
-    </div>
-
-    <!-- Restaurant Select -->
-    <div class="col-12 col-md-6">
-      <label for="restaurant" class="form-label">Select Restaurant</label>
-      <select class="form-select" id="restaurant">
-        <option selected disabled>Choose...</option>
-        <option value="pic">Restaurant Pic</option>
-        <option value="noma">Noma</option>
-        <option value="eleven">Eleven Madison Park</option>
-        <option value="ithaa">Ithaa Undersea</option>
-        <option value="modena">Modena</option>
-        <option value="schauenstein">Schloss Schauenstein</option>
-      </select>
-    </div>
-
-    <!-- Menu Items with Quantity -->
-    <div class="col-12 col-md-6">
-      <label class="form-label d-block">Select Menu Items</label>
-
-      <div class="form-check d-flex align-items-center mb-2">
-        <input class="form-check-input me-2" type="checkbox" value="pizza" id="itemPizza">
-        <label class="form-check-label me-3" for="itemPizza">Pizza</label>
-        <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+      <div id="about" class="col-md-6">
+        <h3>Abou Foodie Hub</h3>
+        <p>
+          Foodie Hub is your global guide to unforgettable dining. From iconic restaurants to hidden gems, we help you
+          discover the best places to eat wherever you are.
+          With curated recommendations, real photos, and honest reviews, Foodie Hub brings food lovers closer to the
+          flavors they crave. Whether you're planning your next trip or just exploring nearby, we make it easy to find
+          meals worth remembering.
+        </p>
+        <span>Explore. Taste. Connect only with Foodie Hub. 🍽️🌍</span>
       </div>
 
-      <div class="form-check d-flex align-items-center mb-2">
-        <input class="form-check-input me-2" type="checkbox" value="bolani" id="itemBolani">
-        <label class="form-check-label me-3" for="itemBolani">Bolani</label>
-        <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+    </div>
+
+  </section>
+
+  <!-- Contact / Footer Section -->
+  <footer class="bg-dark text-white py-5" id="contact">
+    <div class="container text-center text-md-start">
+      <h4 id="contact" class="text-white mb-2 text-center">Contact Us</h4>
+
+      <!-- Contact Info -->
+      <p><i class="bi bi-envelope-fill me-2"></i> contact@foodiehub.com</p>
+      <p><i class="bi bi-telephone-fill me-2"></i> +1 234 567 890</p>
+      <p><i class="bi bi-geo-alt-fill me-2"></i> 123 Foodie Street, Flavor City</p>
+
+      <!-- Social Icons -->
+      <div class="mt-4 text-center text-md-start">
+        <a href="https://www.instagram.com/narges_ygh_?igsh=YzRwdm5mMmlvNHo0" class="text-white me-3 fs-4"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/narges-yaghoubi-656a28243/" class="text-white me-3 fs-4"><i
+            class="bi bi-linkedin"></i></a>
+        <a href="https://x.com/N_Yaghoubi?t=uUX5efJHhxtTjnIypTE-SA&s=09" class="text-white me-3 fs-4"><i
+            class="bi bi-twitter-x"></i></a>
       </div>
 
-      <div class="form-check d-flex align-items-center mb-2">
-        <input class="form-check-input me-2" type="checkbox" value="aushak" id="itemAushak">
-        <label class="form-check-label me-3" for="itemAushak">Aushak</label>
-        <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+      <!-- Footer Text -->
+      <div
+        class="mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+        <p class="mb-2 mb-md-0 mt-3">© 2025 Foodie Hub, Designed and Developed by <a
+            href="https://nargesyaghoubi-ygh.github.io/My-portfolio/" class="text-decoration-none text-info">Narges
+            Yaghoubi </a>| all rights reserved</p>
       </div>
     </div>
-
-    <!-- Submit Button -->
-    <div class="col-12 text-center mb-4">
-      <button type="submit" class="btn btn-success mt-3">Submit Order</button>
-    </div>
-
-  </form>
-</section>
-<section class="container my-5">
-  <div class="row">
-    <div class="col-md-6  mb-4 mb-md-0">
-      <img src="images/F-Hub.jpg" class="img-fluid rounded shadow about-image rounded-end-circle">
-    </div>
-    <div class="col-md-6">
-      <h3>Abou Foodie Hub</h3>
-      <p>
-        Foodie Hub is your global guide to unforgettable dining. From iconic restaurants to hidden gems, we help you discover the best places to eat wherever you are.
-        With curated recommendations, real photos, and honest reviews, Foodie Hub brings food lovers closer to the flavors they crave. Whether you're planning your next trip or just exploring nearby, we make it easy to find meals worth remembering.
-      </p>
-      <span>Explore. Taste. Connect only with Foodie Hub. 🍽️🌍</span>
-    </div>
-    
-  </div>
-
-</section>
-
-<!-- Contact / Footer Section -->
-<footer class="bg-dark text-white py-5" id="contact">
-  <div class="container text-center text-md-start">
-    <h4 class="text-white mb-2 text-center">Contact Us</h4>
-
-    <!-- Contact Info -->
-    <p><i class="bi bi-envelope-fill me-2"></i> contact@foodiehub.com</p>
-    <p><i class="bi bi-telephone-fill me-2"></i> +1 234 567 890</p>
-    <p><i class="bi bi-geo-alt-fill me-2"></i> 123 Foodie Street, Flavor City</p>
-
-    <!-- Social Icons -->
-    <div class="mt-4 text-center text-md-start">
-      <a href="https://www.instagram.com/narges_ygh_?igsh=YzRwdm5mMmlvNHo0" class="text-white me-3 fs-4"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/narges-yaghoubi-656a28243/" class="text-white me-3 fs-4"><i class="bi bi-linkedin"></i></a>
-      <a href="https://x.com/N_Yaghoubi?t=uUX5efJHhxtTjnIypTE-SA&s=09" class="text-white me-3 fs-4"><i class="bi bi-twitter-x"></i></a>
-    </div>
-
-    <!-- Footer Text -->
-    <div class="mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
-      <p class="mb-2 mb-md-0 mt-3">© 2025 Foodie Hub, Designed and Developed by <a href="https://nargesyaghoubi-ygh.github.io/My-portfolio/" class="text-decoration-none text-info">Narges Yaghoubi </a>| all rights reserved</p>
-    </div>
-  </div>
-</footer>
-
-
-
-
-
-
-
-
-
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
