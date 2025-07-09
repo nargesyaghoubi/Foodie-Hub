@@ -55,16 +55,16 @@ body {
   object-fit: cover;
 }
 
-.card {
+.menu {
   border: 2px solid #0dcaf0;
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-  /* جابجایی به سمت بالا و راست */
+.menu:hover {
+  /* Move up and right */
   transform: translate(10px, -10px);
   
-  /* سایه برای برجسته‌تر شدن */
+ /* Shadow to make it stand out */
   box-shadow: 0 8px 15px rgba(13, 202, 240, 0.6);
 }
