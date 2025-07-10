@@ -15,11 +15,11 @@
 </head>
 
 <body>
-
+  <!-- Navbar -->
   <nav class="navbar sticky-top navbar-expand-lg bg-info-subtle shadow-sm">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#">
-        <img src="images/fav-icon/foodieHub-icon.png" alt="Logo" width="30" height="30"
+        <img src="images/fav-icon/icon1.png" alt="Logo" width="30" height="30"
           class="d-inline-block align-text-top me-2">
         Foodie Hub
       </a>
@@ -69,7 +69,6 @@
               <li><a class="dropdown-item" href="#order"><i class="bi bi-ui-checks me-1"></i> Order Form</a></li>
             </ul>
           </li>
-
         </ul>
 
         <form class="d-flex" role="search">
@@ -79,7 +78,7 @@
       </div>
     </div>
   </nav>
-
+  <!-- Hero Section -->
   <section id="home" class="d-flex justify-content-center align-items-center text-center text-white hero-section">
     <div class="container">
       <h1 class="display-4 fw-bold text-info">Welcome to Foodie Hub</h1>
@@ -221,11 +220,11 @@
         <div class="col-12 col-sm-6 col-lg-4 p-3 mb-5">
           <div class="card menu text-black text-center bg-info-subtle d-flex flex-column h-100">
             <img src="images/pizza.jpg" class="card-img-top custom-img">
-            <div class="card-body mt-auto">
+            <div class="card-body mt-4">
               <h3 class="card-title">Pizza</h3>
               <p class="card-text">Classic tomato base with mozzarella and fresh basil</p>
               <p class="card-text"><strong>Price:</strong> $10</p>
-              <span class="badge availability available">Available</span>
+              <a href="#order"><span class="badge availability available text-decoration-none">Available</span></a>
             </div>
           </div>
         </div>
@@ -237,7 +236,7 @@
               <p class="card-text">Afghan flatbread stuffed with spiced potatoes, herbs, and green onions crispy on the
                 outside, soft and savory inside.</p>
               <p class="card-text"><strong>Price:</strong> $12</p>
-              <span class="badge availability available">Available</span>
+              <a href="#order"><span class="badge availability available text-decoration-none">Available</span></a>
             </div>
           </div>
         </div>
@@ -249,35 +248,35 @@
               <p class="card-text">Delicate dumpling-style pasta filled with chives,
                 topped with a savory tomato-meat sauce and garlic-spiced yogurt.</p>
               <p class="card-text"><strong>Price:</strong> $10</p>
-              <span class="badge availability unavailable">Unavailable</span>
+              <a href="#restaurant"><span
+                  class="badge availability unavailable text-decoration-none">Unavailable</span></a>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </section>
-  <section id="order" class="container my-5">
-    <h3 class="text-center mb-4">Place Your Order</h3>
+  <section id="order" class="container">
+    <h3 class="text-center mb-5">Place Your Order</h3>
 
-    <form action="#" class="row g-4 border border-danger-subtle mt-4 bg-warning-subtle">
+    <form action="#" class="row g-4 bg-warning-subtle rounded p-4">
 
       <!-- Customer Name -->
       <div class="col-12 col-md-6">
         <label for="customerName" class="form-label">Customer Name</label>
-        <input type="text" class="form-control" id="customerName" placeholder="Enter your name">
+        <input type="text" class="form-control" id="customerName" placeholder="Enter your name" required>
       </div>
 
       <!-- Phone Number -->
       <div class="col-12 col-md-6">
         <label for="phoneNumber" class="form-label">Phone Number</label>
-        <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. +1234567890">
+        <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. +1234567890" required>
       </div>
 
       <!-- Restaurant Select -->
       <div class="col-12 col-md-6">
         <label for="restaurant" class="form-label">Select Restaurant</label>
-        <select class="form-select" id="restaurant">
+        <select class="form-select" id="restaurant" required>
           <option selected disabled>Choose...</option>
           <option value="pic">Restaurant Pic</option>
           <option value="noma">Noma</option>
@@ -290,34 +289,55 @@
 
       <!-- Menu Items with Quantity -->
       <div class="col-12 col-md-6">
-        <label class="form-label d-block">Select Menu Items</label>
+        <label class="form-label d-block mb-2">Select Menu Items</label>
 
-        <div class="form-check d-flex align-items-center mb-2">
-          <input class="form-check-input me-2" type="checkbox" value="pizza" id="itemPizza">
-          <label class="form-check-label me-3" for="itemPizza">Pizza</label>
-          <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+        <!-- Item Template -->
+        <div class="row g-2 align-items-center mb-2">
+          <div class="col-auto">
+            <input class="form-check-input" type="checkbox" value="pizza" id="itemPizza">
+          </div>
+          <div class="col">
+            <label class="form-check-label" for="itemPizza">Pizza</label>
+          </div>
+          <div class="col-4 col-sm-3">
+            <input type="number" class="form-control" min="1" placeholder="Qty">
+          </div>
         </div>
 
-        <div class="form-check d-flex align-items-center mb-2">
-          <input class="form-check-input me-2" type="checkbox" value="bolani" id="itemBolani">
-          <label class="form-check-label me-3" for="itemBolani">Bolani</label>
-          <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+        <div class="row g-2 align-items-center mb-2">
+          <div class="col-auto">
+            <input class="form-check-input" type="checkbox" value="bolani" id="itemBolani">
+          </div>
+          <div class="col">
+            <label class="form-check-label" for="itemBolani">Bolani</label>
+          </div>
+          <div class="col-4 col-sm-3">
+            <input type="number" class="form-control" min="1" placeholder="Qty">
+          </div>
         </div>
 
-        <div class="form-check d-flex align-items-center mb-2">
-          <input class="form-check-input me-2" type="checkbox" value="aushak" id="itemAushak">
-          <label class="form-check-label me-3" for="itemAushak">Aushak</label>
-          <input type="number" class="form-control w-25" min="1" placeholder="Qty">
+        <div class="row g-2 align-items-center">
+          <div class="col-auto">
+            <input class="form-check-input" type="checkbox" value="aushak" id="itemAushak">
+          </div>
+          <div class="col">
+            <label class="form-check-label" for="itemAushak">Ashak</label>
+          </div>
+          <div class="col-4 col-sm-3">
+            <input type="number" class="form-control" min="1" placeholder="Qty">
+          </div>
         </div>
       </div>
 
       <!-- Submit Button -->
-      <div class="col-12 text-center mb-4">
-        <button type="submit" class="btn btn-success mt-3">Submit Order</button>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-success mt-3 px-4">Submit Order</button>
       </div>
 
     </form>
   </section>
+
+
   <section id="about" class="container my-5">
     <div class="row">
       <div class="col-md-6  mb-4 mb-md-0">
@@ -358,7 +378,7 @@
         <a href="https://x.com/N_Yaghoubi?t=uUX5efJHhxtTjnIypTE-SA&s=09" class="text-white me-3 fs-4"><i
             class="bi bi-twitter-x"></i></a>
       </div>
-
+      <hr class="border-top border-secondary my-4">
       <!-- Footer Text -->
       <div
         class="mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
