@@ -73,7 +73,7 @@ body {
 }
 
 .menu {
-  height: 500px;
+  min-height: 550px;
   border: 2px solid #0dcaf0;
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -116,4 +116,3 @@ h2 {
   font-weight: 700;
   color: #333;
 }
-
