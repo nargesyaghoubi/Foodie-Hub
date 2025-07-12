@@ -19,7 +19,7 @@
 - Nutritional information tables for healthy choices  
 - Smooth and modern UI with Bootstrap 5 and custom CSS
 
-🔗 **Live Site:** [Click to Visit](https://nargesyaghoubi.github.io/Foodie_Hub/)
+🔗 **Live Site:** [Click to Visit](https://nargesyaghoubi-ygh.github.io/Foodie_Hub/)
 
 ## 📸 Screenshots
 
