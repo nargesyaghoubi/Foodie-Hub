@@ -1,7 +1,8 @@
 <div align="center">
-<img src="https://github.com/nargesyaghoubi-ygh/Foodie_Hub/blob/main/images/fav-icon/icon1.png" width=100px>
+<img src="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/fav-icon/icon1.png" width=100px>
    <h1>Foodie Hub</h1>
 </div>
+
 ## Overview
 
 **Foodie Hub** is a modern, responsive website designed for food enthusiasts to browse restaurants, place orders, and connect with services easily. Built with HTML, CSS, and Bootstrap, this site ensures smooth functionality across all devices.
@@ -34,7 +35,7 @@
        <td align="center">
         <h3>Tablet View</h3>
         <a href="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Tablet.png">
-          <img src="https://raw.githubusercontent.com/nargesyaghoubi/Foodie-Hub/main/images/screenshots/Tablet.png" height="400px">
+          <img src="https://raw.githubusercontent.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Tablet.png" height="400px">
         </a>
       </td>
       <td align="center">
@@ -46,4 +47,36 @@
     </tr>
   </table>
 </div>
+---
+## Installation
+To get started with this template, simply clone the repository and open the `index.html` file in your preferred web browser.
+
+```bash
+https://github.com/nargesyaghoubi/Foodie-Hub/
+cd Foodie Hub
+```
+---
+
+🔧 Technologies Used
+- HTML5
+
+- CSS3
+
+- Bootstrap 5
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/nargesyaghoubi/Foodie_Hub/blob/main/LICENSE) file for details.
+
+## Contact
+For any inquiries, please contact:
+- nargesyaghoubi2001@gmail.com
+
+## Links
+
+### Narges Yaghoubi
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://nargesyaghoubi-ygh.github.io/My-portfolio/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/narges-yaghoubi-656a28243/)
 
