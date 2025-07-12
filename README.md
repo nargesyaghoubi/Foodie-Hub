@@ -28,25 +28,26 @@
     <tr align="center">
       <td align="center">
         <h3>Desktop View</h3>
-        <a href="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Desktop.png">
-          <img src="https://raw.githubusercontent.com/nargesyaghoubi/Foodie-Hub/main/images/screenshots/Desktop.png" height="400px">
+        <a href="https://github.com/nargesyaghoubi-ygh/Foodie_Hub/blob/main/images/screenshots/Desktop.png">
+          <img src="https://raw.githubusercontent.com/nargesyaghoubi-ygh/Foodie_Hub/main/images/screenshots/Desktop.png" height="400px">
         </a>
       </td>
        <td align="center">
         <h3>Tablet View</h3>
-        <a href="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Tablet.png">
-          <img src="https://raw.githubusercontent.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Tablet.png" height="400px">
+        <a href="https://github.com/nargesyaghoubi-ygh/Foodie_Hub/blob/main/images/screenshots/Tablet.png">
+          <img src="https://raw.githubusercontent.com/nargesyaghoubi-ygh/Foodie_Hub/main/images/screenshots/Tablet.png" height="400px">
         </a>
       </td>
       <td align="center">
         <h3>Mobile View</h3>
-        <a href="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/mobile.png">
-          <img src="https://raw.githubusercontent.com/nargesyaghoubi/Foodie-Hub/main/images/screenshots/mobile.png" height="400px">
+        <a href="https://github.com/nargesyaghoubi-ygh/Foodie_Hub/blob/main/images/screenshots/mobile.png">
+          <img src="https://raw.githubusercontent.com/nargesyaghoubi-ygh/Foodie_Hub/main/images/screenshots/mobile.png" height="400px">
         </a>
       </td>
     </tr>
   </table>
 </div>
+
 ---
 ## Installation
 To get started with this template, simply clone the repository and open the `index.html` file in your preferred web browser.
@@ -67,7 +68,7 @@ cd Foodie Hub
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/nargesyaghoubi/Foodie_Hub/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/LICENSE) file for details.
 
 ## Contact
 For any inquiries, please contact:
