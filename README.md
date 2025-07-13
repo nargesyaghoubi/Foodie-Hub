@@ -16,7 +16,7 @@
 - **Smooth Navigation:** User-friendly navigation bar enabling effortless access to all key sections of the site.
 - **Custom CSS Styling:** Tailored styles for a modern, consistent, and polished user interface.
 
-🔗 **Live Site:** [Click to Visit](https://nargesyaghoubi-ygh.github.io/Foodie_Hub/)
+🔗 **Live Site:** [Click to Visit](https://nargesyaghoubi.github.io/Foodie-Hub/)
 
 ## 📸 Screenshots
 
@@ -25,20 +25,20 @@
     <tr align="center">
       <td align="center">
         <h3>Desktop View</h3>
-        <a href="https://github.com/nargesyaghoubi-ygh/Foodie_Hub/blob/main/images/screenshots/Desktop.png">
-          <img src="https://raw.githubusercontent.com/nargesyaghoubi-ygh/Foodie_Hub/main/images/screenshots/Desktop.png" height="400px">
+        <a href="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Desktop.png">
+          <img src="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Desktop.png?raw=true" height="400px">
         </a>
       </td>
        <td align="center">
         <h3>Tablet View</h3>
-        <a href="https://github.com/nargesyaghoubi-ygh/Foodie_Hub/blob/main/images/screenshots/Tablet.png">
-          <img src="https://raw.githubusercontent.com/nargesyaghoubi-ygh/Foodie_Hub/main/images/screenshots/Tablet.png" height="400px">
+        <a href="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Tablet.png">
+          <img src="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Tablet.png?raw=true" height="400px">
         </a>
       </td>
       <td align="center">
         <h3>Mobile View</h3>
-        <a href="https://github.com/nargesyaghoubi-ygh/Foodie_Hub/blob/main/images/screenshots/mobile.png">
-          <img src="https://raw.githubusercontent.com/nargesyaghoubi-ygh/Foodie_Hub/main/images/screenshots/mobile.png" height="400px">
+        <a href="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Phone.png">
+          <img src="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/screenshots/Phone.png?raw=true" height="400px">
         </a>
       </td>
     </tr>
@@ -51,7 +51,7 @@ To get started with this template, simply clone the repository and open the `ind
 
 ```bash
 https://github.com/nargesyaghoubi/Foodie-Hub/
-cd Foodie Hub
+cd Foodie-Hub
 ```
 ---
 
