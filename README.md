@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://github.com/nargesyaghoubi/Foodie-Hub/blob/main/images/fav-icon/icon1.png" width=100px>
-   <h1>Foodie Hub</h1>
+   <h1>Foodie-Hub</h1>
 </div>
 
 ## Overview
@@ -10,14 +10,11 @@
 
 
 ## Features
-
-- Responsive design works seamlessly on desktop, tablet, and mobile  
-- Browse a variety of delicious recipes  
-- Place your order through an easy and intuitive form  
-- Search bar for quick recipe lookup  
-- Recipe rating system  
-- Nutritional information tables for healthy choices  
-- Smooth and modern UI with Bootstrap 5 and custom CSS
+- **Responsive Layout:** Fully optimized for seamless performance across desktop, tablet, and mobile devices leveraging Bootstrap 5.
+- **Intuitive Order Form:** A streamlined and responsive form designed for quick and effortless user input and submission.
+- **Visual Menu Presentation:** Clean and elegant display of menu items using image cards to enhance user browsing experience.
+- **Smooth Navigation:** User-friendly navigation bar enabling effortless access to all key sections of the site.
+- **Custom CSS Styling:** Tailored styles for a modern, consistent, and polished user interface.
 
 🔗 **Live Site:** [Click to Visit](https://nargesyaghoubi-ygh.github.io/Foodie_Hub/)
 
